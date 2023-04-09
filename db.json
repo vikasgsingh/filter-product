@@ -1,0 +1,61 @@
+
+[
+  {
+      "id": 1,
+      "price": 1900,
+      "category": "fashion",
+      "imagedata": "images/fashion01.jpg",
+      "type":"cloth"
+  },
+  {
+      "id": 2,
+      "price": 1100,
+      "category": "fashion",
+      "imagedata": "images/fashion02.jpg",
+      "type":"cloth"
+  },
+  {
+      "id": 3,
+      "price": 1500,
+      "category": "grocery",
+      "imagedata": "images/grocery01.jpg",
+      "type":"Home"
+  },
+  {
+      "id": 4,
+      "price": 15000,
+      "category": "grocery",
+      "imagedata": "images/grocery03.jpg",
+      "type":"Home"
+  },
+  {
+      "id": 5,
+      "price": 900,
+      "category": "grocery",
+      "imagedata": "images/grocery03.jpg"
+  },
+  {
+    "id": 6,
+    "price": 900,
+    "category": "mobile",
+    "imagedata": "images/mobile01.png"
+},
+{
+    "id": 7,
+    "price": 900,
+    "category": "mobile",
+    "imagedata": "images/mobile02.jpg"
+},
+{
+    "id": 8,
+    "price": 900,
+    "category": "toy",
+    "imagedata": "images/toy01.jpg"
+},
+{
+    "id": 9,
+    "price": 900,
+    "category": "toy",
+    "imagedata": "images/toy02.jpg"
+}
+]

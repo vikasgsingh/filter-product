@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header-menu">
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="menu-wrap">
+          <input type="text" placeholder="type here" />
+          <a href="#" class="login">login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+      </div>
+    </header>
+    <section class="product-details">
+      <div class="catergory">
+        <ul class="category-list">
+          <li><b>Current offer</b></li>
+          <li><button onclick="filteritem('grocery')">Grocery</button> </li>
+          <li><button onclick="filteritem('mobile')">mobile</button> </li>
+          <li><button onclick="filteritem('fashion')">fashion</button> </li>
+          <li><button onclick="filteritem('toy')">toy</button> </li>
+        </ul>
+      </div>
+      <div class="product">
+        <div id="root" class="details-wrap">
+        </div>
+      </div>
+    </section>
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-nav">
+          <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#"> Pricing </a></li>
+            <li><a href="#">FAQs </a></li>
+            <li><a href="#"> Portfolio</a></li>
+          </ul>
+          <div class="privacy-policy">
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+        <a class="scroll-btn" href="#">
+        </a>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </div>
+  <script src="result.js"></script>
+
+</body>
+
+</html>
